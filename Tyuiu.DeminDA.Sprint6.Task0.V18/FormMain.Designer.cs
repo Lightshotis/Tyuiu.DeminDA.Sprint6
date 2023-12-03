@@ -31,6 +31,7 @@ namespace Tyuiu.DeminDA.Sprint6.Task0.V18
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
             this.groupBoxTaskDDA = new System.Windows.Forms.GroupBox();
+            this.pictureBoxFormula_DDA = new System.Windows.Forms.PictureBox();
             this.textBoxTask_DDA = new System.Windows.Forms.TextBox();
             this.groupBoxVarInPut_DDA = new System.Windows.Forms.GroupBox();
             this.groupBoxVarX_DDA = new System.Windows.Forms.GroupBox();
@@ -41,13 +42,12 @@ namespace Tyuiu.DeminDA.Sprint6.Task0.V18
             this.textBoxOutPutResult_DDA = new System.Windows.Forms.TextBox();
             this.buttonDone_DDA = new System.Windows.Forms.Button();
             this.buttonHelp_DDA = new System.Windows.Forms.Button();
-            this.pictureBoxFormula_DDA = new System.Windows.Forms.PictureBox();
             this.groupBoxTaskDDA.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxFormula_DDA)).BeginInit();
             this.groupBoxVarInPut_DDA.SuspendLayout();
             this.groupBoxVarX_DDA.SuspendLayout();
             this.groupBoxOutPut_DDA.SuspendLayout();
             this.groupBoxOutPutResult_DDA.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxFormula_DDA)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBoxTaskDDA
@@ -65,6 +65,16 @@ namespace Tyuiu.DeminDA.Sprint6.Task0.V18
             this.groupBoxTaskDDA.Text = "Условие";
             this.groupBoxTaskDDA.Enter += new System.EventHandler(this.groupBoxTaskDDA_Enter);
             // 
+            // pictureBoxFormula_DDA
+            // 
+            this.pictureBoxFormula_DDA.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxFormula_DDA.Image")));
+            this.pictureBoxFormula_DDA.Location = new System.Drawing.Point(527, 19);
+            this.pictureBoxFormula_DDA.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBoxFormula_DDA.Name = "pictureBoxFormula_DDA";
+            this.pictureBoxFormula_DDA.Size = new System.Drawing.Size(263, 134);
+            this.pictureBoxFormula_DDA.TabIndex = 1;
+            this.pictureBoxFormula_DDA.TabStop = false;
+            // 
             // textBoxTask_DDA
             // 
             this.textBoxTask_DDA.BorderStyle = System.Windows.Forms.BorderStyle.None;
@@ -75,6 +85,7 @@ namespace Tyuiu.DeminDA.Sprint6.Task0.V18
             this.textBoxTask_DDA.ReadOnly = true;
             this.textBoxTask_DDA.Size = new System.Drawing.Size(503, 229);
             this.textBoxTask_DDA.TabIndex = 0;
+            this.textBoxTask_DDA.TabStop = false;
             this.textBoxTask_DDA.Text = "Вычислить выражение по формуле";
             this.textBoxTask_DDA.TextChanged += new System.EventHandler(this.textBox1_TextChanged_1);
             // 
@@ -170,16 +181,6 @@ namespace Tyuiu.DeminDA.Sprint6.Task0.V18
             this.buttonHelp_DDA.UseVisualStyleBackColor = true;
             this.buttonHelp_DDA.Click += new System.EventHandler(this.buttonHelp_DDA_Click);
             // 
-            // pictureBoxFormula_DDA
-            // 
-            this.pictureBoxFormula_DDA.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxFormula_DDA.Image")));
-            this.pictureBoxFormula_DDA.Location = new System.Drawing.Point(527, 19);
-            this.pictureBoxFormula_DDA.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBoxFormula_DDA.Name = "pictureBoxFormula_DDA";
-            this.pictureBoxFormula_DDA.Size = new System.Drawing.Size(263, 134);
-            this.pictureBoxFormula_DDA.TabIndex = 1;
-            this.pictureBoxFormula_DDA.TabStop = false;
-            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -199,13 +200,13 @@ namespace Tyuiu.DeminDA.Sprint6.Task0.V18
             this.Load += new System.EventHandler(this.FormMain_Load);
             this.groupBoxTaskDDA.ResumeLayout(false);
             this.groupBoxTaskDDA.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxFormula_DDA)).EndInit();
             this.groupBoxVarInPut_DDA.ResumeLayout(false);
             this.groupBoxVarX_DDA.ResumeLayout(false);
             this.groupBoxVarX_DDA.PerformLayout();
             this.groupBoxOutPut_DDA.ResumeLayout(false);
             this.groupBoxOutPutResult_DDA.ResumeLayout(false);
             this.groupBoxOutPutResult_DDA.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxFormula_DDA)).EndInit();
             this.ResumeLayout(false);
 
         }
