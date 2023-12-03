@@ -68,6 +68,7 @@ namespace Tyuiu.DeminDA.Sprint6.Task3.V17
             this.dataGridViewInPutMatrix_DDA.RowTemplate.Height = 24;
             this.dataGridViewInPutMatrix_DDA.Size = new System.Drawing.Size(381, 299);
             this.dataGridViewInPutMatrix_DDA.TabIndex = 1;
+            this.dataGridViewInPutMatrix_DDA.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewInPutMatrix_DDA_CellContentClick);
             // 
             // textBoxCondition_DDA
             // 

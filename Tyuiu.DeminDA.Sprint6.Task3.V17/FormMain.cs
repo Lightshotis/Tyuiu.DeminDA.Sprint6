@@ -25,7 +25,7 @@ namespace Tyuiu.DeminDA.Sprint6.Task3.V17
             { 22, 32, -16, 24, 27 },
             { 3, -20, 24, -20, 26 },
             { 21, 17, -8, -19, 17 },
-            { 8, 22, 28, 27, 29 },
+            { 8, 22, 28, 27, 19 },
             { 11, 20, 12, 27, 29 }
         };
 
@@ -88,6 +88,9 @@ namespace Tyuiu.DeminDA.Sprint6.Task3.V17
             MessageBox.Show("Таск 3 выполнил студент группы ИИПБ-23-2 Дёмин Денис Александрович", "Сообщение");
         }
 
+        private void dataGridViewInPutMatrix_DDA_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
 
+        }
     }
 }
