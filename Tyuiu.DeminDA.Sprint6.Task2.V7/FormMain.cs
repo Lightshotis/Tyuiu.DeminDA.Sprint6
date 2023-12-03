@@ -97,7 +97,6 @@ namespace Tyuiu.DeminDA.Sprint6.Task2.V7
 
         private void textBoxStartStep_DDA_TextChanged(object sender, EventArgs e)
         {
-
         }
     }
 }
