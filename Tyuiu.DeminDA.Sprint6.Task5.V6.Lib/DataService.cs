@@ -32,7 +32,7 @@ namespace Tyuiu.DeminDA.Sprint6.Task5.V6.Lib
                 string line;
                 while ((line = reader.ReadLine()) != null)
                 {
-                    numsArray[index]= Convert.ToDouble(line);
+                    numsArray[index]= Math.Round(Convert.ToDouble(line),3);
                     index++;
                 }
             }
