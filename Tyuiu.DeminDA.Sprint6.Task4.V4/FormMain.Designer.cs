@@ -219,7 +219,6 @@ namespace Tyuiu.DeminDA.Sprint6.Task4.V4
             this.Controls.Add(this.groupBoxCondition_DDA);
             this.Controls.Add(this.panelTask_DDA);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.MaximizeBox = false;
             this.MinimumSize = new System.Drawing.Size(1706, 871);
             this.Name = "FormMain_DDA";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
