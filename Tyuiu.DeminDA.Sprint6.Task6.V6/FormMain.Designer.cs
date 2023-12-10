@@ -38,18 +38,18 @@ namespace Tyuiu.DeminDA.Sprint6.Task6.V6
             this.panelTask_DDA = new System.Windows.Forms.Panel();
             this.textBoxTask_DDA = new System.Windows.Forms.TextBox();
             this.panelInPut_DDA = new System.Windows.Forms.Panel();
+            this.groupBoxInPut_DDA = new System.Windows.Forms.GroupBox();
             this.textBoxInPut_DDA = new System.Windows.Forms.TextBox();
             this.panelOut_DDA = new System.Windows.Forms.Panel();
+            this.groupBoxOutPut_DDA = new System.Windows.Forms.GroupBox();
             this.textBoxOut_DDA = new System.Windows.Forms.TextBox();
             this.openFileDialogTask_DDA = new System.Windows.Forms.OpenFileDialog();
             this.toolTip_DDA = new System.Windows.Forms.ToolTip(this.components);
-            this.groupBoxInPut_DDA = new System.Windows.Forms.GroupBox();
-            this.groupBoxOutPut_DDA = new System.Windows.Forms.GroupBox();
             this.panelButtons_DDA.SuspendLayout();
             this.panelTask_DDA.SuspendLayout();
             this.panelInPut_DDA.SuspendLayout();
-            this.panelOut_DDA.SuspendLayout();
             this.groupBoxInPut_DDA.SuspendLayout();
+            this.panelOut_DDA.SuspendLayout();
             this.groupBoxOutPut_DDA.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -78,6 +78,7 @@ namespace Tyuiu.DeminDA.Sprint6.Task6.V6
             // 
             // buttonDone_DDA
             // 
+            this.buttonDone_DDA.Enabled = false;
             this.buttonDone_DDA.Location = new System.Drawing.Point(151, 14);
             this.buttonDone_DDA.Name = "buttonDone_DDA";
             this.buttonDone_DDA.Size = new System.Drawing.Size(143, 83);
@@ -129,6 +130,17 @@ namespace Tyuiu.DeminDA.Sprint6.Task6.V6
             this.panelInPut_DDA.Size = new System.Drawing.Size(773, 624);
             this.panelInPut_DDA.TabIndex = 2;
             // 
+            // groupBoxInPut_DDA
+            // 
+            this.groupBoxInPut_DDA.Controls.Add(this.textBoxInPut_DDA);
+            this.groupBoxInPut_DDA.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.groupBoxInPut_DDA.Location = new System.Drawing.Point(0, 0);
+            this.groupBoxInPut_DDA.Name = "groupBoxInPut_DDA";
+            this.groupBoxInPut_DDA.Size = new System.Drawing.Size(773, 624);
+            this.groupBoxInPut_DDA.TabIndex = 0;
+            this.groupBoxInPut_DDA.TabStop = false;
+            this.groupBoxInPut_DDA.Text = "Ввод";
+            // 
             // textBoxInPut_DDA
             // 
             this.textBoxInPut_DDA.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -148,6 +160,17 @@ namespace Tyuiu.DeminDA.Sprint6.Task6.V6
             this.panelOut_DDA.Name = "panelOut_DDA";
             this.panelOut_DDA.Size = new System.Drawing.Size(747, 624);
             this.panelOut_DDA.TabIndex = 3;
+            // 
+            // groupBoxOutPut_DDA
+            // 
+            this.groupBoxOutPut_DDA.Controls.Add(this.textBoxOut_DDA);
+            this.groupBoxOutPut_DDA.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.groupBoxOutPut_DDA.Location = new System.Drawing.Point(0, 0);
+            this.groupBoxOutPut_DDA.Name = "groupBoxOutPut_DDA";
+            this.groupBoxOutPut_DDA.Size = new System.Drawing.Size(747, 624);
+            this.groupBoxOutPut_DDA.TabIndex = 0;
+            this.groupBoxOutPut_DDA.TabStop = false;
+            this.groupBoxOutPut_DDA.Text = "Вывод:";
             // 
             // textBoxOut_DDA
             // 
@@ -171,28 +194,6 @@ namespace Tyuiu.DeminDA.Sprint6.Task6.V6
             this.toolTip_DDA.ToolTipTitle = "Подсказка";
             this.toolTip_DDA.Popup += new System.Windows.Forms.PopupEventHandler(this.toolTip1_Popup);
             // 
-            // groupBoxInPut_DDA
-            // 
-            this.groupBoxInPut_DDA.Controls.Add(this.textBoxInPut_DDA);
-            this.groupBoxInPut_DDA.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupBoxInPut_DDA.Location = new System.Drawing.Point(0, 0);
-            this.groupBoxInPut_DDA.Name = "groupBoxInPut_DDA";
-            this.groupBoxInPut_DDA.Size = new System.Drawing.Size(773, 624);
-            this.groupBoxInPut_DDA.TabIndex = 0;
-            this.groupBoxInPut_DDA.TabStop = false;
-            this.groupBoxInPut_DDA.Text = "Ввод";
-            // 
-            // groupBoxOutPut_DDA
-            // 
-            this.groupBoxOutPut_DDA.Controls.Add(this.textBoxOut_DDA);
-            this.groupBoxOutPut_DDA.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupBoxOutPut_DDA.Location = new System.Drawing.Point(0, 0);
-            this.groupBoxOutPut_DDA.Name = "groupBoxOutPut_DDA";
-            this.groupBoxOutPut_DDA.Size = new System.Drawing.Size(747, 624);
-            this.groupBoxOutPut_DDA.TabIndex = 0;
-            this.groupBoxOutPut_DDA.TabStop = false;
-            this.groupBoxOutPut_DDA.Text = "Вывод:";
-            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -210,9 +211,9 @@ namespace Tyuiu.DeminDA.Sprint6.Task6.V6
             this.panelTask_DDA.ResumeLayout(false);
             this.panelTask_DDA.PerformLayout();
             this.panelInPut_DDA.ResumeLayout(false);
-            this.panelOut_DDA.ResumeLayout(false);
             this.groupBoxInPut_DDA.ResumeLayout(false);
             this.groupBoxInPut_DDA.PerformLayout();
+            this.panelOut_DDA.ResumeLayout(false);
             this.groupBoxOutPut_DDA.ResumeLayout(false);
             this.groupBoxOutPut_DDA.PerformLayout();
             this.ResumeLayout(false);
